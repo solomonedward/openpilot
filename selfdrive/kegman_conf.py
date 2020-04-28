@@ -103,9 +103,9 @@ class kegman_conf():
         self.element_updated = True
 	
       if "sR_boost" not in self.config:
-        self.config.update({"sR_boost":"0"})
-        self.config.update({"sR_BP0":"0"})
-        self.config.update({"sR_BP1":"0"})
+        self.config.update({"sR_boost":"4.5"})
+        self.config.update({"sR_BP0":"4.0"})
+        self.config.update({"sR_BP1":"7.0"})
         self.config.update({"sR_time":"1"})
         self.element_updated = True
 
