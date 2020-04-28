@@ -95,7 +95,7 @@ class kegman_conf():
         self.element_updated = True
 	
       if "slowOnCurves" not in self.config:
-        self.config.update({"slowOnCurves":"0"})
+        self.config.update({"slowOnCurves":"1"})
         self.element_updated = True
 	
       if "Kf" not in self.config:
@@ -110,8 +110,8 @@ class kegman_conf():
         self.element_updated = True
 
       if "ALCnudgeLess" not in self.config:
-        self.config.update({"ALCnudgeLess":"0"})
-        self.config.update({"ALCminSpeed":"20.1168"})
+        self.config.update({"ALCnudgeLess":"1"})
+        self.config.update({"ALCminSpeed":"10.1168"})
         self.element_updated = True
 
       if "ALCtimer" not in self.config:
